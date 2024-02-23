@@ -1,5 +1,0 @@
-#!/bin/bash
-
-echo "
-Flexget ACCEPTED:"
-tail -n 5 /home/server/docker/flexget/config/accepted.log | column -ts %

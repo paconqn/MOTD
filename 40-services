@@ -8,13 +8,10 @@ green="\e[1;32m"
 red="\e[1;31m"
 undim="\e[0m"
 declare -A services
-services["nginx"]="Nginx"
-services["docker"]="Docker"
-services["sshd"]="SSH"
-services["plexmediaserver"]="Plex"
-services["openvpn-server@server"]="OVPN-server"
-services["smbd"]="Samba"
-services["smartd"]="Smart"
+services["postgresql"]="PostgreSQL"
+services["apache2"]="Apache"
+services["ssh"]="SSH"
+services["fail2ban"]="Fail2Ban"
 # sort services
 k=0
 out=""
